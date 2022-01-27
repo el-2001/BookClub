@@ -72,7 +72,7 @@ h2{
     
 }
 .about-us{
-   
+    background-color: hsl(50,60%,37%);
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -89,7 +89,7 @@ h2{
 }
 .about-us-two{
     
-    
+    background-color: hsl(50,60%,37%);
     margin: 0 auto;
     
     display: flex;
