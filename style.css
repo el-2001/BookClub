@@ -10,10 +10,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    z-index: 1;
+   
 }
 header img{
  width: 80px;
  height:100%;
+}
+nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
 }
 ul{
     list-style: none;
@@ -22,7 +30,7 @@ ul{
 }
 ul li a {
     transition: all 0.3s ease 0s;
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
@@ -38,6 +46,8 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;;
+    color: black;
+    font-size: 1rem;
 }
 button:hover {
     background-color: rgba(0,136,169,0.8);
@@ -62,7 +72,7 @@ h2{
     
 }
 .about-us{
-    background-color: hsl(50,60%,35%);
+   
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -79,16 +89,22 @@ h2{
 }
 .about-us-two{
     
-    background-color: hsl(50,60%,35%);
+    
     margin: 0 auto;
     
     display: flex;
     flex-flow: wrap-reverse row;
     justify-content: space-around;
 }
+.picture{
+    border: seashell 6px solid;
+   
+    width: 800px;
+}
 .picture img{
-    width:800px;
-    border: seashell 8px solid;
+    width:100%;
+    
+   
 }
 .description{
     
@@ -145,8 +161,11 @@ h2{
     height: 200px;
 }
 
-@media only screen and (max-width:832px)
-{
+@media only screen and (max-width:841px)
+{   
+    .picture{
+        width: 100%;
+    }
     .picture img{
         width: 100%;
     }
