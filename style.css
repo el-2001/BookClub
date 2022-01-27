@@ -1,0 +1,165 @@
+html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(50,60%,40%)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+header img{
+ width: 80px;
+ height:100%;
+}
+ul{
+    list-style: none;
+    
+    
+}
+ul li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+ul li a:hover{
+    color: rgba(0,136,169,1);
+}
+button{
+    font-weight: bold;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 10rem;
+}
+h2{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.5rem;
+    
+}
+.about-us{
+    background-color: hsl(50,60%,35%);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    
+}
+.seperate{
+   
+    width:100%;
+    height:10px;
+    background-color: rgba(0,136,169,1); 
+    margin: 40px 0px;
+}
+.about-us-two{
+    
+    background-color: hsl(50,60%,35%);
+    margin: 0 auto;
+    
+    display: flex;
+    flex-flow: wrap-reverse row;
+    justify-content: space-around;
+}
+.picture img{
+    width:800px;
+    border: seashell 8px solid;
+}
+.description{
+    
+    width: 500px;
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+}
+.move-down{
+    position: relative;
+    top: 100px;
+    width:100%;
+    margin: 0 auto;
+}
+.special-event{
+    font-size: 5rem;
+}
+.events{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+
+}
+.events img{
+    transition: all 0.3s ease 0s;
+    width: 200px;
+    
+}
+.rick-one{
+    align-self: center;
+}
+.rick-one:hover{
+    width: 350px;
+    
+}
+.rick-two{
+    align-self: center;
+}
+.rick-two:hover{
+    width: 350px;
+}
+.rick-three{
+    align-self: center;
+}
+.rick-three:hover{
+    width: 350px;
+}
+.events-description p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    height: 200px;
+}
+
+@media only screen and (max-width:832px)
+{
+    .picture img{
+        width: 100%;
+    }
+    .events img{
+        width: 100px;
+    }
+    .rick-one{
+        width: 200px;
+    }
+    .rick-two{
+        width: 200px;
+    }
+    .rick-three{
+        width: 200px;
+    }
+}
